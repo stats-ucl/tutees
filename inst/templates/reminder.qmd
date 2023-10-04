@@ -1,0 +1,11 @@
+Dear {data$studentName},
+
+I am writing to you because you have indicated in the [Moodle Students Wellbeing survey](https://moodle.ucl.ac.uk/course/view.php?id=31829) that you would like to set up a meeting with me to discuss specific issues that you are facing, in your time at UCL.
+
+You should have already been given access to a scheduling tool in the Moodle survey, but just as a reminder, in case you have not managed to do so yet, I am including the link [here]({data$tutorLink}). Clicking on it will redirect you to my personal scheduler and you will be able to select a slot from those available.
+
+**Please make sure that the meeting has been scheduled**: it is important for us to speak with you to assist and point you in the best direction to resolve whatever issue you may be experiencing. If you can't find a suitable time in my scheduler, you can send me an [email](mailto:{data$tutorEmail}) directly. 
+
+Best wishes,    
+{data$tutorName}
+

@@ -1,0 +1,30 @@
+Dear Friend,
+
+This is a message to demonstrate how the email would be created, starting from some markdown text.
+
+I can obviously include some fancy formatting (like, for instance, using *italics* or **bold** text). 
+
+The file with the message can be saved as `rmarkdown` (with extension `.Rmd`), or as a newer [`quarto`](https://quarto.org/) (extension `.qmd`). It can contain plain text with virtually no formatting, or can even use `R` variables, e.g. to read data from a spreadsheet/data frame. For instance, this code 
+```
+Sys.Date() |> format("%A, %-d %B %Y")
+```
+would read in the current date (rendered as: {Sys.Date() |> format("%A, %-d %B %Y")}).
+
+At the end of the message, you can include a signature, with hyperlinks (see below).
+
+Best wishes,    
+Gianluca
+
+--
+
+**Gianluca Baio**    
+*Professor of Statistics and Health Economics* | *Head of Department*
+
+Department of Statistical Science | University College London    
+1-19 Torrington Place, London, WC1E 6BT, UK     
+Twitter: [@stats_ucl](https://twitter.com/stats_UCL) | Instagram: [@stats_UCL](https://instagram.com/ucl.stats/)
+
+Telephone: +44(0)20 7679 1248 (internal: 41248)    
+Website: [http://www.homepages.ucl.ac.uk/~ucakgba](http://www.homepages.ucl.ac.uk/~ucakgba)     
+Blog: [https://gianluca.statistica.it/blog/](https://gianluca.statistica.it/blog/)     
+Book a meeting with me: [https://book.morgen.so/gianlucabaio/book-me](https://book.morgen.so/gianlucabaio/book-me)

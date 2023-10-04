@@ -1,0 +1,21 @@
+# It is possible to use Microsoft365R to manage OneDrive files. These can't be opened 
+# directly from R, but can be downloaded and then imported into R and at the end of the
+# processing uploaded back onto the cloud.
+#
+# It is possible to use 
+get_business_onedrive()
+# to log-in to Microsoft365. The command 
+get_business_onedrive(auth_type="device_code")
+# allows to do it with no browser (R issues a code and instructions to log-in. 
+# The log-in only needs to happen once and then issueing the simple command
+# with no inputs just works).
+#
+# Commands like
+od=get_business_onedrive()
+od$download_file("path_to_the_file_in_OneDrive",dest="local_path"))
+data=readxl::read_xlsx("local_path",sheet=...)
+# create an object 'data' with the online spreadsheet's content.
+# This can be manipulated/used to make operations and if changed 
+# can be uploaded using a command like
+writexl::write_excel(data,path="local_path")
+od$upload_file("local_path",dest="path_to_the_file_in_OneDrive")

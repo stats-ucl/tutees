@@ -1,4 +1,4 @@
-# HoDemails
+# tutees
 
 This package uses [blastula](https://github.com/rstudio/blastula), [Microsoft365R](https://github.com/Azure/Microsoft365R) and [htmltools](https://cran.r-project.org/web/packages/htmltools/index.html) to streamline the process of sending emails, particularly when the body of the message is the output of some data-wrangling.
 
